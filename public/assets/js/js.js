@@ -23,7 +23,7 @@ function minus(){
      aci.scrollLeft=0;   
     }
     aci.scrollLeft=aci.scrollLeft+document.getElementById('r2').clientWidth;
-    
+     
   
  }
  function minus1(){

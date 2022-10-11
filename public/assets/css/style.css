@@ -38,7 +38,7 @@ ul li a:hover {
 }
 ul li a span{
   font-size: 20px;
-}
+} 
 ul li p{
   padding:none !important;
   margin:none !important;
@@ -46,7 +46,6 @@ ul li p{
 .ulh{
   list-style-type: none;
  display: flex;
-overflow-x: auto;
 
 }
 .ulh li{
@@ -68,11 +67,9 @@ overflow-x: auto;
       flex: 0 0 100%;
       padding: none !important;
   }
-  .ulh{
-    display: block;
-  }
+ 
   .ulh li{
-    flex: 0 0 calc(100%/4);
+    flex: 0 0 20%;
     display: block;
   }
   }
