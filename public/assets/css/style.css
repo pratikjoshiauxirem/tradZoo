@@ -1,3 +1,21 @@
+ *{
+  font-family: 'Young', sans-serif;
+ }
+ #plya{
+  position:absolute; 
+  top:30%; left:46%;
+   color:white; 
+   background:orangered;
+ 
+}
+
+ #hero_h1{
+  width:100vw;
+  height: 100%;
+  padding: 5%;
+  background-image:url('https://tradzoo.com/static/img/hero/h1_hero.png');
+ }
+
 .carousel-inner {
     padding: 1em;
   }
@@ -10,6 +28,20 @@
     top: 50%;
     transform: translateY(-50%);
   }
+  nav li {
+    padding:0rem 1.5rem ;
+  }
+  .nav-item a{
+    color:black !important;
+    font-weight: bold;
+    font-style: normal !important;
+  }
+  #vdo{
+    /* background-image: url('https://tradzoo.com/static/img/tradzoo course/vdo thum.jpg'); */
+    background-color: red;
+   
+  }
+ 
   @media (min-width: 576px) {
     .carousel-item {
       margin-right: 0;
@@ -27,6 +59,21 @@
         padding: 0% 2%;
         
     }
+    #DES{
+      padding: auto;
+      margin: auto;
+      position: absolute;
+      top:115%;
+      left:0;
+    
+     }
+     #DES .row .col-md-4 .row{
+      border:1px solid black;
+      border-radius: 25%;
+      padding: 10px;
+      box-shadow: 5px 20px 20px 20px #3b3737;
+     }
+    
     
 ul li a {
   text-decoration: none;
@@ -52,8 +99,23 @@ ul li p{
   flex: 0 0 calc(100%/8);
   display: block;
 }
-
-  
+.ulh li a{
+  background-color: white;
+}
+#chat{
+  position: fixed;
+  bottom:10px;
+  right:10px;
+  width:50px !important;
+}
+/* nav img{
+  padding: 2rem;
+  border-radius:3rem;
+} */
+   .nav-item a{
+    text-decoration: none;
+    font-weight: bold !important;
+   }
   }
 
   @media (max-width: 767px) {
@@ -67,9 +129,27 @@ ul li p{
       flex: 0 0 100%;
       padding: none !important;
   }
- 
-  .ulh li{
-    flex: 0 0 20%;
-    display: block;
+  .ulh{
+    display: flex;
+    overflow: auto;
   }
+ .ulh li{
+  display: block;
+  flex:0 0 calc(100%/4);
+ }
+ #DES{
+  padding: auto;
+  margin: auto;
+  position: static;
+  top:115%;
+  left:0;
+
+ }
+ #DES .row .col-md-4 .row{
+  border:1px solid black;
+  border-radius: 25%;
+  padding: 10px;
+  box-shadow: 5px 20px 20px 20px #3b3737;
+ }
+
   }

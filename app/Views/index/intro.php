@@ -1,11 +1,11 @@
-<link rel="stylesheet" href="assets/css/style.css">
-<div class="container-fluid p-0 m-0" style="width:100vw; background-color:rgb(240, 275, 232); height:100%">
+
+<div class="container-fluid p-0 m-0" style="width:100vw; background-color:rgb(233, 246, 247); height:100%">
 <div class="container">
         <nav class="p-2 w-50 m-auto" >
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-6">
-                        <img src="assets/images/images/logo.webp" class="w-100">
+                        <img src="assets/images/images/logo.webp" class="w-100" >
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-6 m-auto">
                         <h1>TradZoo</h1>
@@ -118,29 +118,29 @@
                      <h3 class="pb-5">Other Social Media Channels</h3>
                     <ul type="none" class="ulh">
                         <li class="">
-                            <a href=""><p><span class="fa fa-youtube"></span><br>Youtube</p></a>
+                            <a href="https://www.youtube.com/channel/UC6cO64zBUFLakJW-QZWYONg"><p><span class="fa fa-youtube"></span><br>Youtube</p></a>
                         </li>
                         <li class="">
                             <a href=""><p><img src="assets/images/images/icons/tradingview.webp" style="height:17px;"><br>TradingView</p></a>
                         </li>
                         <li class="">
-                            <a href=""><p><span class="fa fa-telegram"></span><br>Telegram</p></a>
+                            <a href="https://t.me/s/tradzooIndex"><p><span class="fa fa-telegram"></span><br>Telegram</p></a>
                         </li>
                         <li class="">
-                            <a href=""><p><span class="fa fa-twitter"></span><br>twitter</p></a>
+                            <a href="https://twitter.com/TradZoo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><p><span class="fa fa-twitter"></span><br>twitter</p></a>
                         </li>
-</br>
+                                </br>
                         <li class="">
-                            <a href=""><p><span class="fa fa-instagram"></span><br>Instagram</p></a>
+                            <a href="https://www.instagram.com/tradzoo/?hl=en"><p><span class="fa fa-instagram"></span><br>Instagram</p></a>
                         </li>
                         <li class="">
-                            <a href=""><p><span class="fa fa-facebook"></span><br>Facebook</p></a>
+                            <a href="https://m.facebook.com/TradZoo-104979215270887/"><p><span class="fa fa-facebook"></span><br>Facebook</p></a>
                         </li>
                         <li class="">
                             <a href=""><p><span class="fa fa-whatsapp"></span><br>Whatsapp</p></a>
                         </li>
                         <li class="">
-                            <a href=""><p><span class="fa fa-desktop"></span><br>Website</p></a>
+                            <a href="https://tradzoo.com/"><p><span class="fa fa-desktop"></span><br>Website</p></a>
                         </li>
                     </ul>
                     <h4 class="text-success pt-5 w-75">Join Now and start your financial journey with TradZoo  Trusted by 40k+ users</h4>
@@ -170,4 +170,7 @@
         </div>
 
     </div>
+</div>
+<div class="" id="chat">
+   <a href="https://wa.me/7776077410"> <img src="assets/images/images/wp.png" class="rounded-circle w-100"></a>
 </div>
