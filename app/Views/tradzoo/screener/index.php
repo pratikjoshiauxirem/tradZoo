@@ -105,14 +105,17 @@ Trading  with <br> TradZoo
 <div class="container-fluid p-5">
     <h1 class="text-center text-primary p-2">Our Free Youtube resources</h1>
     <div class="container m-auto">
-    <iframe width="1140" height="641" src="https://www.youtube.com/embed/P1ly2exl_UM" title="Descending Broadening Wedge Pattern Breakout in HDFCBANK | Price Action | Technical Analysis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <div class="container m-auto">
-    <iframe width="1140" height="641" src="https://www.youtube.com/embed/P1ly2exl_UM" title="Descending Broadening Wedge Pattern Breakout in HDFCBANK | Price Action | Technical Analysis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <div class="container m-auto">
-    <iframe width="1140" height="641" src="https://www.youtube.com/embed/P1ly2exl_UM" title="Descending Broadening Wedge Pattern Breakout in HDFCBANK | Price Action | Technical Analysis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+        <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12">
+            <iframe class="w-100" height="500" src="https://www.youtube.com/embed/P1ly2exl_UM" title="Descending Broadening Wedge Pattern Breakout in HDFCBANK | Price Action | Technical Analysis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-12 col-xs-12 col-sm-12">
+            <iframe class="w-100" height="500" src="https://www.youtube.com/embed/P1ly2exl_UM" title="Descending Broadening Wedge Pattern Breakout in HDFCBANK | Price Action | Technical Analysis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-12 col-xs-12 col-sm-12">
+            <iframe class="w-100" height="500" src="https://www.youtube.com/embed/P1ly2exl_UM" title="Descending Broadening Wedge Pattern Breakout in HDFCBANK | Price Action | Technical Analysis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
     <div class="container text-center">
      <a href="" class="w-25 btn m-auto border-primary text-primary">Subscribe for More</a>
     </div>
@@ -121,43 +124,51 @@ Trading  with <br> TradZoo
 <div class="container">
 <h1 class="text-center text-primary p-2">You will be expert from Here</h1>
 <div class="row">
-    <div class="col-md-3 col-xs-12 col-sm-12">
+    <div class="col-md-3 col-xs-12 col-sm-12 p-2">
         <a href=""><img class="w-100" src="https://tradzoo.com/static/img/subjects/index%20trading%20sample.jpg"></a>
-        <p style="position:absolute; bottom:0; right:26%; font-weight:600;" class="text-white font-weight-bold font-25">INDEX TRADING</p>
+        <p  class="aap text-center">INDEX TRADING</p>
+        <div class="aap2"></div>
     </div>
 
-    <div class="col-md-3 col-xs-12 col-sm-12">
+    <div class="col-md-3 col-xs-12 col-sm-12 p-2">
         <a href=""><img class="w-100" src="https://tradzoo.com/static/img/subjects/stock%20option.jpg"></a>
-        <p style="position:absolute; bottom:0; right:26%; font-weight:600;" class="text-white font-weight-bold font-25">STOCK OPTION TRADING</p>
+        <p  class="aap text-center">STOCK OPTION TRADING</p>
+        <div class="aap2"></div>
     </div>
-    <div class="col-md-3 col-xs-12 col-sm-12">
+    <div class="col-md-3 col-xs-12 col-sm-12 p-2">
         <a href=""><img class="w-100" src="https://tradzoo.com/static/img/subjects/risk%20management.jpg"></a>
-        <p style="position:absolute; bottom:0; right:26%; font-weight:600;" class="text-white font-weight-bold font-25">RISK MANAGEMENT</p>
+        <p  class="aap text-center">RISK MANAGEMENT</p>
+        <div class="aap2"></div>
     </div>
-    <div class="col-md-3 col-xs-12 col-sm-12">
+    <div class="col-md-3 col-xs-12 col-sm-12 p-2">
         <a href=""><img class="w-100" src="https://tradzoo.com/static/img/subjects/stock%20ana.png"></a>
-        <p style="position:absolute; bottom:0; right:26%; font-weight:600;" class="text-white font-weight-bold font-25">STOCK ANALYSIS</p>
+        <p  class="aap text-center">STOCK ANALYSIS</p>
+        <div class="aap2"></div>
     </div>
-    <div class="col-md-3 col-xs-12 col-sm-12">
+    <div class="col-md-3 col-xs-12 col-sm-12 p-2">
         <a href=""><img class="w-100" src="https://tradzoo.com/static/img/subjects/candle%20stick.png"></a>
-        <p style="position:absolute; bottom:0; right:26%; font-weight:600;" class="text-white font-weight-bold font-25">CANDLESTICK CHARTS</p>
+        <p  class="aap text-center">CANDLESTICK CHARTS</p>
+        <div class="aap2"></div>
     </div>
-    <div class="col-md-3 col-xs-12 col-sm-12">
+    <div class="col-md-3 col-xs-12 col-sm-12 p-2">
         <a href=""><img class="w-100" src="https://tradzoo.com/static/img/subjects/ACCOUNT%20GROTH.jpg"></a>
-        <p style="position:absolute; bottom:0; right:26%; font-weight:600;" class="text-white font-weight-bold font-25">ACCOUNT GROWTH</p>
+        <p  class="aap text-center">ACCOUNT GROWTH</p>
+        <div class="aap2"></div>
     </div>
-    <div class="col-md-3 col-xs-12 col-sm-12">
+    <div class="col-md-3 col-xs-12 col-sm-12 p-2">
         <a href=""><img class="w-100" src="https://tradzoo.com/static/img/subjects/MONEY.jpg"></a>
-        <p style="position:absolute; bottom:0; right:26%; font-weight:600;" class="text-white font-weight-bold font-25">MONEY MANAGEMENT</p>
+        <p  class="aap text-center">MONEY MANAGEMENT</p>
+        <div class="aap2"></div>
     </div>
-    <div class="col-md-3 col-xs-12 col-sm-12">
+    <div class="col-md-3 col-xs-12 col-sm-12 p-2">
         <a href=""><img class="w-100" src="https://tradzoo.com/static/img/subjects/EMOTIONS.jpg"></a>
-        <p style="position:absolute; bottom:0; right:26%; font-weight:600;" class="text-white font-weight-bold font-25">EMOTIONS CONTROL</p>
+        <p  class="aap text-center">EMOTIONS CONTROL</p>
+        <div class="aap2"></div>
     </div>
 </div>
 </div>
-<div class="container-fluid p-5">
-    <div class="container p-5">
+<div class="container-fluid  uoss">
+    <div class="container ">
         <div class="row">
             <div class="col-md-6 col-sm-12 col-xs-12 col-sm-last m-auto">
                     <h1 class="text-primary">Use our smart Screener</h1>
@@ -185,4 +196,88 @@ Trading  with <br> TradZoo
             </div>
         </div>
     </div>
+</div>
+<div class="container-fluid p-5">
+    <div class="container p-5">
+        <h1 class="text-primary pb-5 text-center">What our students Say About Us</h1>
+        <div class="row">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <img src="https://tradzoo.com/static/img/icon/male%20icon.jpg" class="w-100">
+                <p class="text-primary text-center font-weight-bold" style="font-size:1.3rem;">Mr. Ruturaj Jain</p>
+                <p class="text-center"style="font-size:0.8rem;">"Your strategy & technique was brillient"</p>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <img src="https://tradzoo.com/static/img/icon/female%20icon.jpg" class="w-100">
+                <p class="text-primary text-center font-weight-bold" style="font-size:1.3rem;">Mrs. Anshika Gupta</p>
+                <p class="text-center"style="font-size:0.8rem;">"Your accuracy on banknifty was fabulaous"</p>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <img src="https://tradzoo.com/static/img/icon/male%20icon.jpg" class="w-100">
+                <p class="text-primary text-center font-weight-bold" style="font-size:1.3rem;">Mr. Sahil Khan</p>
+                <p class="text-center"style="font-size:0.8rem;">"I think you are Banknifty writer. Because with your help & support my capital gain in last week was 150%"</p>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <img src="https://tradzoo.com/static/img/icon/female%20icon.jpg" class="w-100">
+                <p class="text-primary text-center font-weight-bold" style="font-size:1.3rem;">Mrs. Rajashri Mohite</p>
+                <p class="text-center"style="font-size:0.8rem;">"Thank you for your techniques, it has 10000% perfection, I never seen this type of accuracy. You are GOD for me"</p>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <img src="https://tradzoo.com/static/img/icon/male%20icon.jpg" class="w-100">
+                <p class="text-primary text-center font-weight-bold" style="font-size:1.3rem;">Mr. Dipesh Gupta</p>
+                <p class="text-center"style="font-size:0.8rem;">"Thank you very much sir, for your help & support I repay my loans in this pandemic situation"</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid p-5">
+    <div class="contaier">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <img src="https://tradzoo.com/static/img/subjects/CTA.jpg" class="w-100">
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12 m-auto">
+                <h1 class="text-primary" style="font-size:2.5rem;">Take the next step toward your personal and professional goals with us.</h1>
+                <p>For consistent Profits & to learn Stock Market from scratch. Join us you will rock in your Trading Journey. Seats filling</p>
+                <a href="" class="btn btn-lg p-2 w-50 text-primary border-primary">Enroll Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid p-5">
+    <div class="container">
+    <h1 class="text-primary pb-5 text-center">Our new Blog Post</h1>
+    <div class="">
+        <img src="https://tradzoo.com/media/blogImg/blog_1_yecItbb.png" class="w-100">
+        <p class="bg-primary p-3 text-white" style="width:9rem;">June 27,2021</p>
+        <h3 style="font-size:1.5rem;">BULLISH ENGULFING PATTERN TRADING STRATEGY</h3>
+    </div>
+    <div class="">
+        <img src="https://tradzoo.com/media/blogImg/blog2.png" class="w-100">
+        <p class="bg-primary p-3 text-white" style="width:9rem;">June 27,2021</p>
+        <h3 style="font-size:1.5rem;">INTRODUCTION TO CANDLESTICK CHART PATTERN</h3>
+    </div>
+    <div class="">
+        <img src="https://tradzoo.com/media/blogImg/blog_3.jpg" class="w-100">
+        <p class="bg-primary p-3 text-white" style="width:9rem;">June 27,2021</p>
+        <h3 style="font-size:1.5rem;">DIFFERENT TYPE OF ANALYSIS FOR TRADING IN STOCK MARKET</h3>
+    </div>
+    </div>
+</div>
+<div class="conttainer-fluid m-0 p-0" id="sidebar">
+    <ul type="none" class="m-0 p-0">
+                <li style="background-color:blue;" class="p-3">
+                    <a href="" class="font-weight-bold text-white"><span class="fa fa-facebook"></span></a>
+                </li>
+                <li style="background-color:skyblue;" class="p-3">
+                    <a href="" class="font-weight-bold text-white"><span class="fa fa-twitter"></span></a>
+                </li>
+                <li style="background-color:rgb(252, 3, 148);" class="p-3">
+                    <a href="" class="font-weight-bold text-white"><span class="fa fa-instagram"></span></a>
+                </li>
+                <li style="background-color:red;" class="p-3">
+                    <a href="" class="font-weight-bold text-white"><span class="fa fa-youtube"></span></a>
+                </li>
+               
+    </ul>
+</div>
 </div>

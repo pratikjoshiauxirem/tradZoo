@@ -8,8 +8,8 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav float-right">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Home </a>
+      <li class="nav-item active">
+        <a class="nav-link text-primary" href="#">Home </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Screener</a>

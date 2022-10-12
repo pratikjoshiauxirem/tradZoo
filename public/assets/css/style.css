@@ -5,6 +5,58 @@
       font-family: 'DEC Terminal Modern', sans-serif;
                                                 
      }
+     #footer {
+      background-color:black;
+      position:sticky;
+      bottom: 0%;
+      left: 0%;
+      margin: 0;
+      padding: none;
+      width: 100vw !important;
+      color: white;
+     }
+     #footer ul li a, #footer{
+      color: white;
+      font-size:0.8rem;
+     }
+     #footer ul{
+      list-style-type: none;
+      display: flex;
+      padding: none;
+     }
+     #footer ul li{
+      display: block;
+      margin: auto 0.8rem;
+      padding: none;
+      
+     }
+     #sidebar{
+      position: fixed;
+      top: 30%;
+      left:0px;
+     }
+     #sidebar ul{
+      display: flex;
+      flex-direction: column;
+     }
+     #sidebar ul li{
+      display: block;
+      flex-direction: column;
+     }
+     .uoss ul li{
+      margin: 1.5rem 0rem;
+     }
+     .aap{
+      position:absolute; 
+      bottom:0; 
+      right:0; 
+      left:10%;
+      font-weight:600;
+      background-color:rgba(0,0,0,0.5);
+      width: 80%;
+      color: white;
+      font-weight: 800;
+     }
      #plya{
       position:absolute; 
       top:30%; left:46%;
@@ -44,7 +96,7 @@
         
       }
       #vdo{
-        /* background-image: url('https://tradzoo.com/static/img/tradzoo course/vdo thum.jpg'); */
+    
         background-color: red;
        
       }
@@ -52,7 +104,7 @@
       margin-right: 0;
       flex: 0 0 33.333333%;
       display: block;
-    }
+    } 
     .carousel-inner {
       display: flex;
     }
@@ -68,7 +120,7 @@
       padding: auto;
       margin: auto;
       position: absolute;
-      top:105%;
+      top:112%;
       left:0;
     
      }
@@ -146,6 +198,30 @@ ul li p{
   }
 
   @media (max-width: 767px) {
+    #sidebar{
+      display: none;
+    }
+    #footer{
+      display: none;
+    }
+    #footer ul{
+      list-style-type: none;
+      display: flex;
+      padding: none;
+      flex-direction: column;
+     }
+     #footer ul .mr-auto{
+      flex-direction: row;
+      display: flex;
+      float: right;
+     }
+     #footer .mr-auto li{
+      margin:1rem;
+      
+     }
+     #footer ul li{
+      margin:0.1rem;
+     }
     .carousel-item {
       margin-right: 0;
       flex: 0 0 100%;
