@@ -1,48 +1,53 @@
- *{
-  font-family: 'Young', sans-serif;
- }
- #plya{
-  position:absolute; 
-  top:30%; left:46%;
-   color:white; 
-   background:orangered;
- 
-}
 
- #hero_h1{
-  width:100vw;
-  height: 100%;
-  padding: 5%;
-  background-image:url('https://tradzoo.com/static/img/hero/h1_hero.png');
- }
-
-.carousel-inner {
-    padding: 1em;
-  }
-  .carousel-control-prev,
-  .carousel-control-next {
-    background-color: #e1e1e1;
-    width: 6vh;
-    height: 6vh;
-    border-radius: 50%;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  nav li {
-    padding:0rem 1.5rem ;
-  }
-  .nav-item a{
-    color:black !important;
-    font-weight: bold;
-    font-style: normal !important;
-  }
-  #vdo{
-    /* background-image: url('https://tradzoo.com/static/img/tradzoo course/vdo thum.jpg'); */
-    background-color: red;
-   
-  }
  
-  @media (min-width: 576px) {
+  @media (min-width: 100px) {
+    *{
+      font-family: 'DEC Terminal Modern', sans-serif;
+                                                
+     }
+     #plya{
+      position:absolute; 
+      top:30%; left:46%;
+       color:white; 
+       background:orangered;
+     
+    }
+    
+     #hero_h1{
+      width:100vw;
+      height: 100%;
+      padding: 5%;
+      background-image:url('https://tradzoo.com/static/img/hero/h1_hero.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+     }
+    
+    .carousel-inner {
+        padding: 1em;
+      }
+      .carousel-control-prev,
+      .carousel-control-next {
+        background-color: #e1e1e1;
+        width: 6vh;
+        height: 6vh;
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      nav li {
+        padding:0rem 1.5rem ;
+      }
+      .nav-item a{
+        color:black !important;
+        font-weight: bold;
+        
+      }
+      #vdo{
+        /* background-image: url('https://tradzoo.com/static/img/tradzoo course/vdo thum.jpg'); */
+        background-color: red;
+       
+      }
     .carousel-item {
       margin-right: 0;
       flex: 0 0 33.333333%;
@@ -63,7 +68,7 @@
       padding: auto;
       margin: auto;
       position: absolute;
-      top:115%;
+      top:105%;
       left:0;
     
      }
@@ -93,14 +98,18 @@ ul li p{
 .ulh{
   list-style-type: none;
  display: flex;
+ overflow: none;
+ margin:0;
+ padding: 0;
 
 }
 .ulh li{
-  flex: 0 0 calc(100%/8);
+  flex: 0 0 calc(100%/3);
   display: block;
 }
 .ulh li a{
   background-color: white;
+  font-size: 0.85rem !important;
 }
 #chat{
   position: fixed;
@@ -108,34 +117,58 @@ ul li p{
   right:10px;
   width:50px !important;
 }
-/* nav img{
-  padding: 2rem;
-  border-radius:3rem;
-} */
+
    .nav-item a{
     text-decoration: none;
     font-weight: bold !important;
    }
+   .w-25-md{
+    width: 30%;
+  }
+  .download{
+    display: flex;
+  }
+  .apk{
+    display: block;
+    flex: 0 0 50%;
+    margin: 1rem;
+    padding: 0.5rem;
+    background: white;
+    border-radius: 0.8rem;
+  }
+  #smicons{
+    display: flex;
+  }
+  #smicons div{
+    display: block;
+    /* flex: 0 0 calc(100%/3); */
+  }
   }
 
   @media (max-width: 767px) {
-    .carousel-item{
-        display: block;
-        margin-right: 0;
-        flex: 0 0 100%;
-    }
-   
-  #review .carousel-item{
+    .carousel-item {
+      margin-right: 0;
       flex: 0 0 100%;
-      padding: none !important;
-  }
+      display: block;
+    }
+    .carousel-inner {
+      display: flex;
+    }
+    #review .carousel-inner{
+        display: flex;
+    }
+    #review .carousel-item{
+        flex: 0 0 100%;
+        padding: 0% 2%;
+        
+    }
   .ulh{
     display: flex;
     overflow: auto;
   }
  .ulh li{
   display: block;
-  flex:0 0 calc(100%/4);
+  flex:0 0 calc(100%/3);
  }
  #DES{
   padding: auto;
@@ -151,5 +184,16 @@ ul li p{
   padding: 10px;
   box-shadow: 5px 20px 20px 20px #3b3737;
  }
-
+ #chat{
+  position: fixed;
+  bottom:10px;
+  right:10px;
+  width:50px !important;
+}
+.w-25-md{
+  width: 100%;
+}
+.w-25, .w-50, .w-75 {
+  width: 100% !important;
+}
   }

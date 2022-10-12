@@ -4,7 +4,7 @@
     Explore the world <br> of <br>
 Trading  with <br> TradZoo
     </h1>
-    <p class="text-white w-50 lead">Learn the basics of the stock market, to enhance the understanding
+    <p class="text-white w-75 lead">Learn the basics of the stock market, to enhance the understanding
          of how does the Stock market works and what makes you earn in the market.</p>
     <a href="#" class="btn border-primary p-3 text-primary w-25 font-weight-bold" style="font-size:1rem">Enroll</a>
    </div>
