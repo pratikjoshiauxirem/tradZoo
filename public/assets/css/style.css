@@ -1,9 +1,24 @@
 
  
   @media (min-width: 100px) {
-    *{
+    /* *{
       font-family: 'DEC Terminal Modern', sans-serif;
                                                 
+     } */
+     .cc1 ,.cc2{
+      padding: 1rem;
+      margin: 2rem 1rem;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px;
+     }
+   .active a{
+    font-weight: bold;
+    color: blue !important;
+   }
+     html{
+      scroll-behavior:smooth;
+     }
+     .mr li{
+      margin-top: 1rem;
      }
      #footer {
       background-color:black;
@@ -12,7 +27,7 @@
       left: 0%;
       margin: 0;
       padding: none;
-      width: 100vw !important;
+      width: 100% ;
       color: white;
      }
      #footer ul li a, #footer{
@@ -34,6 +49,7 @@
       position: fixed;
       top: 30%;
       left:0px;
+      z-index: 1;
      }
      #sidebar ul{
       display: flex;
@@ -91,8 +107,8 @@
         padding:0rem 1.5rem ;
       }
       .nav-item a{
-        color:black !important;
-        font-weight: bold;
+        color:black ;
+        font-weight: bold !important;
         
       }
       #vdo{

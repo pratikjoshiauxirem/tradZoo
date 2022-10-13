@@ -1,5 +1,6 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" id="html">
+<?php $uri = service('uri'); ?>
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -12,7 +13,13 @@
     <link href="http://fonts.cdnfonts.com/css/dec-terminal-modern" rel="stylesheet">
                 
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>TradZoo: platform for traders and investers</title>
+    <title><?=($uri->getSegment(1)=='home'?'Tradzoo- Learning | Trading | Earning':null) ?>
+    <?=($uri->getSegment(1)=='screener'?'Trazoo- Prize action screener':null) ?>
+    <?=($uri->getSegment(1)=='about'?'About us | TradZoo':null) ?>
+    <?=($uri->getSegment(1)=='blog'?'Latest Post by TradZoo':null) ?>
+    <?=($uri->getSegment(1)=='home'?'Tradzoo- Learning | Trading | Earning':null) ?>
+    <?=($uri->getSegment(1)==''?'Tradzoo| Platoform for Traders and Investers':null) ?>
+  </title>
     <style>
       .font-25{
         font-size: 20px;

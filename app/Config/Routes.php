@@ -36,7 +36,11 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home1::index');
-$routes->get('/tz', 'Tradzoo::index');
+$routes->get('/home', 'Tradzoo::home');
+$routes->get('/screener', 'Tradzoo::screener');
+$routes->get('/about', 'Tradzoo::about');
+$routes->get('/blog', 'Tradzoo::blog');
+$routes->get('/contact', 'Tradzoo::contact');
 
 /*
  * --------------------------------------------------------------------

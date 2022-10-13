@@ -27,6 +27,9 @@
                 <h2  class="pb-5" style="font-size:2.5rem;">App Screenshots</h2>
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" id="apps">
                 <div class="carousel-inner" id="aci" style="overflow-x:hiden;">
+    <div class="carousel-item" id="p1" style="display:none;">
+      <img class="d-block w-100" src="assets/images/images/s1.webp" alt="First slide">
+    </div>
     <div class="carousel-item" id="pratik">
       <img class="d-block w-100" src="assets/images/images/s1.webp" alt="First slide">
     </div>
@@ -64,6 +67,10 @@
                 <h2 style="overflow:hidden; font-size:2.5rem;" class="pb-5">What People says About Us</h2>
                 <div id="review" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner" id="r1">
+                <div class="carousel-item " id="r3">
+                    <img class="d-block w-100" src="assets/images/images/reviews/1.webp" alt="First slide">
+                   
+                    </div>
                     <div class="carousel-item " id="r2">
                     <img class="d-block w-100" src="assets/images/images/reviews/1.webp" alt="First slide">
                    
@@ -74,7 +81,7 @@
                     <div class="carousel-item">
                     <img class="d-block w-100" src="assets/images/images/reviews/3.webp" alt="Third slide">
                     </div>
-                    <div class="carousel-item " id="r2">
+                    <div class="carousel-item " >
                     <img class="d-block w-100" src="assets/images/images/reviews/4.webp" alt="First slide">
                    
                     </div>
@@ -84,7 +91,7 @@
                     <div class="carousel-item">
                     <img class="d-block w-100" src="assets/images/images/reviews/6.webp" alt="Third slide">
                     </div>
-                    <div class="carousel-item " id="r2">
+                    <div class="carousel-item " >
                     <img class="d-block w-100" src="assets/images/images/reviews/7.webp" alt="First slide">
                    
                     </div>
@@ -94,7 +101,7 @@
                     <div class="carousel-item">
                     <img class="d-block w-100" src="assets/images/images/reviews/9.webp" alt="Third slide">
                     </div>
-                    <div class="carousel-item " id="r2">
+                    <div class="carousel-item " >
                     <img class="d-block w-100" src="assets/images/images/reviews/10.webp" alt="First slide">
                    
                     </div>
@@ -151,7 +158,7 @@
                                         <a href="https://www.youtube.com/channel/UC6cO64zBUFLakJW-QZWYONg"><p><span class="fa fa-youtube"></span><br>Youtube</p></a>
                                     </li>
                                     <li class="">
-                                        <a href=""><p><img src="assets/images/images/icons/tradingview.webp" style="height:17px; font-size:0.5rem !important;"><br>TradingView</p></a>
+                                        <a href="/tz"><p><img src="assets/images/images/icons/tradingview.webp" style="height:17px; font-size:0.5rem !important;"><br>TradingView</p></a>
                                     </li>
                                     <li class="">
                                         <a href="https://t.me/s/tradzooIndex"><p><span class="fa fa-telegram"></span><br>Telegram</p></a>
@@ -165,10 +172,10 @@
                                         <a href="https://twitter.com/TradZoo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><p><span class="fa fa-twitter"></span><br>twitter</p></a>
                                     </li>
                                     <li class="">
-                                        <a href="https://www.youtube.com/channel/UC6cO64zBUFLakJW-QZWYONg"><p><span class="fa fa-instagram"></span><br>Instagram</p></a>
+                                        <a href="https://www.instagram.com/tradzoo/?hl=en"><p><span class="fa fa-instagram"></span><br>Instagram</p></a>
                                     </li>
                                     <li class="">
-                                        <a href=""><p><span class="fa fa-facebook"></span></br>Facebook</p></a>
+                                        <a href="https://m.facebook.com/TradZoo-104979215270887/"><p><span class="fa fa-facebook"></span></br>Facebook</p></a>
                                     </li>
                             
                                     </ul>
@@ -179,7 +186,7 @@
                                             <a href="https://t.me/s/tradzooIndex"><p><span class="fa fa-whatsapp"></span><br>whatsapp</p></a>
                                         </li>
                                         <li class="">
-                                            <a href="https://twitter.com/TradZoo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><p><span class="fa fa-globe"></span><br>Website</p></a>
+                                            <a href="https://tradzoo.com/"><p><span class="fa fa-globe"></span><br>Website</p></a>
                                         </li>
                                        
                                     </ul>
@@ -200,7 +207,7 @@
             <div class="col-md-6 col-xs-12 col-sm-12 m-auto text-center col-sm-first col-md-last">
                     <p class="font-weight-bold " style="font-size:1.7rem;">Join TradZoo Telegram Community</p>
                     <p>Become a part of our Tradzoo's Telegram community and  stay updated with all the market updates and offers  Stay tuned for the most profitable trades.</p>
-                    <a href="" class="btn bg-white btn-lg m-2 rounded"><span class="mr-2"><img src="assets/images/images/icons/telegramicon.webp" width="50rem;"></span>Telegram Community </a>
+                    <a href="https://t.me/s/tradzooIndex" class="btn bg-white btn-lg m-2 rounded w-50"><span class="mr-2"><img src="assets/images/images/icons/telegramicon.webp" width="50rem;"></span><span style="font-size:1rem;">Telegram Community</span> </a>
                 </div>
            
         </div>
@@ -210,3 +217,42 @@
 <div class="" id="chat">
    <a href="https://wa.me/7776077410"> <img src="assets/images/images/wp.png" class="rounded-circle w-100"></a>
 </div>
+<script>
+    window.onload=moveslide();
+function moveslide(){
+   setInterval(plus,2000);
+   setInterval(plus1,2000);
+}
+
+function plus(){
+   var aci= document.getElementById('aci'); 
+   
+   if(aci.scrollLeft>1637){
+    aci.scrollLeft=0;   
+   }
+   aci.scrollLeft=aci.scrollLeft+document.getElementById('pratik').clientWidth;
+   document.getElementById('p1').style.display="block";
+ 
+}
+function minus(){
+   
+   if(aci.scrollLeft<320){
+    plus();
+   }
+   aci.scrollLeft=aci.scrollLeft - document.getElementById('pratik').clientWidth;
+ }
+//
+ function plus1(){
+    var aci= document.getElementById('r1');
+    if(aci.scrollLeft>11680){
+      aci.scrollLeft=0;
+     }
+    aci.scrollLeft=aci.scrollLeft+document.getElementById('r2').clientWidth;
+    document.getElementById('p1').style.display="block";
+   
+ }
+ function minus1(){
+   var aci= document.getElementById('r1');
+    aci.scrollLeft=aci.scrollLeft - document.getElementById('r2').clientWidth;
+  }
+</script>
