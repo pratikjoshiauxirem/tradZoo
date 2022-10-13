@@ -18,16 +18,16 @@
             <li>
                 <ul class="mr-auto">
                     <li>
-                        <a href="" class="text-white"><span class="fa fa-facebook"></span></a>
+                        <a href="https://m.facebook.com/TradZoo-104979215270887/" class="text-white"><span class="fa fa-facebook"></span></a>
                     </li>
                     <li>
-                        <a href="" class="text-white"><span class="fa fa-twitter"></span></a>
+                        <a href="https://twitter.com/TradZoo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="text-white"><span class="fa fa-twitter"></span></a>
                     </li>
                     <li>
-                        <a href="" class="text-white"><span class="fa fa-instagram"></span></a>
+                        <a href="https://www.instagram.com/tradzoo/?hl=en" class="text-white"><span class="fa fa-instagram"></span></a>
                     </li>
                     <li>
-                        <a href="" class="text-white"><span class="fa fa-youtube"></span></a>
+                        <a href="https://www.youtube.com/channel/UC6cO64zBUFLakJW-QZWYONg" class="text-white"><span class="fa fa-youtube"></span></a>
                     </li>
                 </ul>
             </li>

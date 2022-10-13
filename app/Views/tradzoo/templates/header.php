@@ -37,17 +37,17 @@
 <div class="conttainer-fluid m-0 p-0" id="sidebar">
     <ul type="none" class="m-0 p-0">
                 <li style="background-color:blue;" class="p-3">
-                    <a href="" class="font-weight-bold text-white"><span class="fa fa-facebook"></span></a>
+                    <a href="https://m.facebook.com/TradZoo-104979215270887/" class="font-weight-bold text-white"><span class="fa fa-facebook"></span></a>
                 </li>
                 
                 <li style="background-color:rgb(0,172,238);" class="p-3">
-                    <a href="" class="font-weight-bold text-white"><span class="fa fa-twitter"></span></a>
+                    <a href="https://twitter.com/TradZoo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="font-weight-bold text-white"><span class="fa fa-twitter"></span></a>
                 </li>
                 <li style="background:linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);" class="p-3">
-                    <a href="" class="font-weight-bold text-white"><span class="fa fa-instagram"></span></a>
+                    <a href="https://www.instagram.com/tradzoo/?hl=en" class="font-weight-bold text-white"><span class="fa fa-instagram"></span></a>
                 </li>
                 <li style="background-color:red;" class="p-3">
-                    <a href="" class="font-weight-bold text-white"><span class="fa fa-youtube"></span></a>
+                    <a href="https://www.youtube.com/channel/UC6cO64zBUFLakJW-QZWYONg" class="font-weight-bold text-white"><span class="fa fa-youtube"></span></a>
                 </li>
                
     </ul>
