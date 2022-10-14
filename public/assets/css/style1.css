@@ -1,0 +1,81 @@
+@font-face {
+    font-family: -Esfera-NF;
+    src: url(-Esfera-NF.ttf);
+}
+#sml{
+    display: inline;
+}
+#sml li{
+    display: inline-block;
+    background: white;
+    margin:1rem 1.5rem;
+}
+@media (min-width: 100px) {
+    html h1 {
+        font-family: -Esfera-NF;
+    }
+    .brand .b2{
+        font-family: -Esfera-NF;
+        font-weight:bolder;
+        font-size: 1.35rem;
+        color: rgba(158, 158, 158,1);
+    }
+    .brand1{
+        font-family: -Esfera-NF;
+        font-weight:bolder;
+        font-size: 2rem;
+        color:black;
+    }
+    .brand .row img{
+        border-radius: 10px;
+    }
+    .about h1, .app_screenshot h1, .review h1, .download h1{
+        font-family: -Esfera-NF;
+        font-weight:bolder !important;
+        font-size: 1.8rem;
+        color:black;
+    }
+    .about p{
+        font-family: -Esfera-NF;
+        color:black !important;
+        font-weight:300;
+        font-size: 1.3rem;
+    }
+    .review_container img{
+        margin: 1rem;
+    }  
+    .container{
+        padding: 2rem 3rem;
+    }
+    .brand{
+        width:50%;
+    }
+    .apk1{
+        width: 55%;
+    }
+    
+}
+@media  (max-width: 767px) {
+    
+    .container, .container-fluid{
+        padding:0.8rem !important;
+        margin: 0 !important;
+
+    }
+    html{
+        font-size: 80%;
+    }
+    .brand{
+        width: 98%;
+    }
+    .apk1{
+        width: 100%;
+    }
+    
+    }
+    @media (min-width: 600px) {
+    
+      .w-50{
+        width: 40% !important;
+      }
+        }
