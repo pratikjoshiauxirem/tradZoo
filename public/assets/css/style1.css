@@ -2,13 +2,23 @@
     font-family: -Esfera-NF;
     src: url(-Esfera-NF.ttf);
 }
+
+.rounded{
+    border-radius:15px !important;
+}
 #sml{
     display: inline;
 }
 #sml li{
     display: inline-block;
     background: white;
-    margin:1rem 1.5rem;
+    margin:1rem 1rem;
+    padding: 0.6rem;
+    border-radius:10px ;
+}
+#sml li a {
+ font-size: 1rem;
+ font-weight: bold;
 }
 @media (min-width: 100px) {
     html h1 {
@@ -29,7 +39,7 @@
     .brand .row img{
         border-radius: 10px;
     }
-    .about h1, .app_screenshot h1, .review h1, .download h1{
+    .about h1, .app_screenshot h1, .review h1, .download h1, .sml h1{
         font-family: -Esfera-NF;
         font-weight:bolder !important;
         font-size: 1.8rem;

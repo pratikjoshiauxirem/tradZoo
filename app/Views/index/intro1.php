@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="assets/css/style1.css">
-<div class="container-fluid" style="width:100%; height:100%; background-color:rgb(227,242,253);">
+   <div class="container-fluid p-2" style="width:100%; height:100%; background-color:rgb(227,242,253);">
 
     <div class="container brand">
       <div class="row" id="brand">
@@ -101,30 +101,30 @@
    <div class="container-fluid p-3">
       <div class="container review m-auto">
           <h1 class="text-center">Download Now For Free !!!</h1>
-          <h4 class="text-center" style="font-size:1.27rem; color:green;">Use Code TRADZOO to get 20% cashback on your first purchase.</h4>
+          <h4 class="text-center text-success font-weight-bold" style="font-size:1.27rem;">Use Code TRADZOO to get 20% cashback on your first purchase.</h4>
 
-              <div class="container apk1">
+              <div class="container apk1 w-50">
                   <div class="row ">
                     <div class="col-6">
-                        <div class="container ">
-                           <div class="row bg-white rounded">
-                              <div class="col-4 p-0"  >
+                        <div class="container p-1 ">
+                           <div class="row bg-white p-1 rounded">
+                              <div class="col-4 p-0 m-auto"  >
                                    <img class="w-100" src="assets/images/images/icons/playstore.png">
                               </div>
                               <div class="col-8 m-auto ">
-                                   <p>Android <br>   Play Store</p>
+                                   <p class="text-center" style="font-size:1rem;">Android <br>   Play Store</p>
                               </div>
                            </div>
                         </div>
                     </div>
                     <div class="col-6">
-                        <div class="container ">
-                           <div class="row bg-white rounded">
-                              <div class="col-4 p-0 ">
+                        <div class="container p-1 ">
+                           <div class="row bg-white p-1 rounded">
+                              <div class="col-4 p-0 m-auto ">
                                    <img class="w-100" src="assets/images/images/icons/appstore.webp">
                               </div>
                               <div class="col-8  m-auto">
-                                   <p>Apple <br>   APP Store</p>
+                                   <p class="text-center" style="font-size:0.9rem;">Apple <br>   APP Store</p>
                               </div>
                            </div>
                         </div>
@@ -133,84 +133,51 @@
               </div>
       </div>
    </div>
-   <div class="container-fluid">
+   <div class="container-fluid text-center sml">
+   <h1 class="text-center">Other Social Media Channels </h1>
+     
       <div class="container social">
           <ul id="sml">
             <li  class="text-center">
             <a href="" class="" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
             </li>
-            <li  class="text-center">
-            <a href="" class="" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
+            <li class="">
+            <a href="/tz"><p class="m-0 p-0"><img src="assets/images/images/icons/tradingview.webp" style="height:25px; font-size:0.5rem !important;"><br>TradingView</p></a>
             </li>
             <li  class="text-center">
-            <a href="" class="" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
+            <a href="" class="" style="color:black;"><span  class="fa fa-telegram"></span><br>Telegram</a>
             </li>
             <li  class="text-center">
-            <a href="" class="" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
+            <a href="" class="" style="color:black;"><span  class="fa fa-twitter"></span><br>Twitter</a>
             </li>
             <li  class="text-center">
-            <a href="" class="" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
+            <a href="" class="" style="color:black;"><span  class="fa fa-instagram"></span><br>Instagram</a>
             </li>
             <li  class="text-center">
-            <a href="" class="" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
+            <a href="" class="" style="color:black;"><span  class="fa fa-facebook"></span><br>Facebook</a>
             </li>
              <li  class="text-center">
-            <a href="" class="" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
+            <a href="" class="" style="color:black;"><span  class="fa fa-whatsapp"></span><br>Whatsapp</a>
             </li>
             <li  class="text-center">
-            <a href="" class="" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
-            </li>
-            <li  class="text-center">
-            <a href="" class="" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
+            <a href="" class="" style="color:black;"><span  class="fa fa-globe"></span><br>Website</a>
             </li>
           </ul>
           </div>
+          <h4 class="text-center font-weight-bold text-success" style="font-size:1.27rem;">Join Now & start your financial journey with Tradzoo Trusted by 40k+ users</h4>
+          
       </div>
+  
+   <div class="container-fluid w-75">
+       <div class="container">
+          <div class="row">
+             <div class="col-6">
+                 <img src="assets/images/images/telegram.webp" class="w-100">
+             </div>
+             <div class="col-6 m-auto text-center border">
+                 <h5 class="font-weight-bold ">Join Tradzoo Telegram Community !</h5 >
+             </div>
+          </div>
+       </div>
    </div>
-</div>
-<!-- <div class="row">
-             <div class="col-md-4">
-                <div class="container">
-                   <div class="row">
-                     <div class="col-4 text-center bg-white">
-                        <a href="" class="" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
-                     </div>
-                     <div class="col-4 text-center bg-white">
-                        <a href="" class="" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
-                     </div>
-                     <div class="col-4 text-center bg-white">
-                        <a href="" class="" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
-                     </div>
-                   </div>
-                </div>
-             </div>
-             <div class="col-md-4">
-                <div class="container">
-                   <div class="row">
-                     <div class="col-4 text-center bg-white">
-                        <a href="" class="" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
-                     </div>
-                     <div class="col-4 text-center bg-white">
-                        <a href="" class="" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
-                     </div>
-                     <div class="col-4 text-center bg-white">
-                        <a href="" class="" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
-                     </div>
-                   </div>
-                </div>
-             </div>
-             <div class="col-md-4">
-                <div class="container">
-                   <div class="row p-0">
-                     <div class="col-4 text-center bg-white">
-                        <a href="" class="" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
-                     </div>
-                     <div class="col-4 text-center bg-white">
-                        <a href="" class="" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
-                     </div>
-                     <!-- <div class="col-4 text-center bg-white">
-                        <a href="" class="" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
-                     </div> -->
-                   </div>
-                </div>
-             </div> -->
+   </div>

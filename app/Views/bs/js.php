@@ -38,10 +38,10 @@ autoplayTimeout:2000,
 autoplayHoverPause:true,
 responsive:{
   700:{
-            items:2
+            items:7/6
        },
         100:{
-            items:5/4
+            items:4/3
         }
 
 
