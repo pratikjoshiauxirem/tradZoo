@@ -3,10 +3,10 @@
 
     <div class="container brand">
       <div class="row" id="brand">
-         <div class="col-5 p-3">
+         <div class="col-4 p-3">
            <img src="assets/images/images/logo.webp" class="img-fluid">
          </div>
-         <div class="col-7 m-auto" style="padding:0;">
+         <div class="col-8 m-auto" style="padding:0;">
            <h1 class="brand1">TradZoo</h1>
            <h5 class="b2">Platform for Traders & Investors</h5>
          </div>
@@ -51,7 +51,7 @@
           </div>
         </div>
   </div>
-   <div class="container-fluid p-3">
+   <div class="container-fluid">
       <div class="container review m-auto">
           <h1 class="text-center">What People Says about us</h1>
           <div class="container review_container owl-carousel loop p-3">
@@ -98,21 +98,21 @@
           </div>
       </div>
    </div>
-   <div class="container-fluid p-3">
+   <div class="container-fluid ">
       <div class="container review m-auto">
           <h1 class="text-center">Download Now For Free !!!</h1>
           <h4 class="text-center text-success font-weight-bold" style="font-size:1.1rem;">Use Code TRADZOO to get 20% cashback on your first purchase.</h4>
-
-              <div class="container apk1 w-50">
+          
+              <div class="container apk1 mx-auto">
                   <div class="row ">
                     <div class="col-6">
                         <div class="container p-1 ">
                            <div class="row bg-white p-1 rounded">
-                              <div class="col-4 p-0 m-auto"  >
+                              <div class="col-3 p-0 m-auto"  >
                                    <img class="w-100" src="assets/images/images/icons/playstore.png">
                               </div>
-                              <div class="col-8 m-auto ">
-                                   <p class="text-center font-weight-bold" style="font-size:0.9rem;">Android <br>   Play Store</p>
+                              <div class="col-9 m-auto ">
+                                   <p class="text-center font-weight-bold" >Android <br>   Play Store</p>
                               </div>
                            </div>
                         </div>
@@ -120,11 +120,11 @@
                     <div class="col-6">
                         <div class="container p-1 ">
                            <div class="row bg-white p-1 rounded">
-                              <div class="col-4 p-0 m-auto ">
+                              <div class="col-3 p-0 m-auto ">
                                    <img class="w-100" src="assets/images/images/icons/appstore.webp">
                               </div>
-                              <div class="col-8  m-auto">
-                                   <p class="text-center font-weight-bold" style="font-size:0.9rem;">Apple <br>   APP Store</p>
+                              <div class="col-9  m-auto">
+                                   <p class="text-center font-weight-bold" >Apple <br>   APP Store</p>
                               </div>
                            </div>
                         </div>
@@ -134,9 +134,10 @@
       </div>
    </div>
    <div class="container-fluid text-center sml">
-   <h1 class="text-center">Other Social Media Channels </h1>
+
      
       <div class="container social">
+      <h1 class="text-center">Other Social Media Channels </h1>
               <ul id="sml">
                     <li  class="text-center">
                       <a href="" class="" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
@@ -160,7 +161,7 @@
                       <a href="" class="" style="color:black;"><span  class="fa fa-whatsapp"></span><br>Whatsapp</a>
                     </li>
                     <li  class="text-center">
-                      <a href="" class="" style="color:black;"><span  class="fa fa-table"></span><br>Website</a>
+                      <a href="" class="" style="color:black;"><span  class=""><img style="height:23px; font-size:0.5rem !important;" src="https://img.icons8.com/fluency-systems-regular/48/000000/browser-windows.png"/></span><br>Website</a>
                     </li>
               </ul>
         </div>
@@ -175,7 +176,7 @@
                         <img src="assets/images/images/telegram.webp" class="w-100">
                     </div>
                     <div class="col-6 m-auto text-center p-1">
-                        <h3 class="font-weight-bold my-3" style="font-size:1.3rem; font-family:Esfera NF W01 Bold;">
+                        <h3 class="font-weight-bold my-3" style="font-size:1.5rem; font-family:Esfera NF W01 Bold;">
                             Join Tradzoo Telegram Community!
                         </h3 >
                         <p class="my-3" style="font-size:1rem; font-weight:300;">
@@ -189,7 +190,7 @@
                                         <img src="assets/images/images/icons/telegramicon.webp" class="w-100">
                                     </div>
                                     <div class="col-8 p-1 m-auto">
-                                        <p class="font-weight-bold">Telegram Community</p>
+                                        <p class="font-weight-bold" style="font-size:0.9rem;">Telegram Community</p>
                                     </div>
                                 </div>
                             </div>

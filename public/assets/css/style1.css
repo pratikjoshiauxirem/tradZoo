@@ -13,7 +13,7 @@
   }
 *{
     font-family: -Esfera-NF;
-    font-weight: 400;
+    font-weight: 300 !important;
 
 }
 ::-webkit-scrollbar {
@@ -109,11 +109,24 @@
         padding:0;
     }
     .apk1{
-        width: 55%;
+        width: 40%;
+        font-size: 100%;
     }
     
 }
-@media  (max-width: 767px) {
+/* @media  (max-width:800px) {
+    .brand{
+        width:60%;
+    }
+    .apk1{
+        width: 80%;
+    }
+    .tele{
+        width:90% !important;
+        border:1px solid black;
+    }
+} */
+@media  (max-width: 500px) {
     
     .container, .container-fluid{
         padding:0.6rem !important;
@@ -121,20 +134,48 @@
 
     }
     html{
-        font-size: 80%;
+        font-size: 75%;
     }
     .brand{
-        width: 90%;
+        width: 90% !important;
        
         justify-content: center;
         margin: auto auto !important;
     }
     .apk1{
-        width: 100%;
+        width: 85% !important;
+        margin: auto !important;
+        font-size: 80%;
     }
     .tele{
-        width:100%;
+        width:100% !important;
+        font-weight: 300;
     }
     
     }
-   
+    @media  (min-width: 500px) and (max-width: 800px) {
+    
+        .container, .container-fluid{
+            padding:0.6rem  !important;
+            margin: 0 auto !important;
+    
+        }
+        html{
+            font-size: 90%;
+        }
+        .brand{
+            width: 55% !important;
+           
+            justify-content: center;
+            margin: auto auto !important;
+        }
+        .apk1{
+            width: 50% !important;
+        }
+        .tele{
+            width:100% !important;
+            font-weight: 300;
+        }
+        
+        }
+    
