@@ -1,8 +1,9 @@
+<link rel="stylesheet" href="assets/css/font.css">
 <link rel="stylesheet" href="assets/css/style1.css">
    <div class="container-fluid p-0" style="width:100%; height:100%; background-color:rgb(227,242,253);">
 
-    <div class="container brand">
-      <div class="row" id="brand">
+    <div class="container brand p-0">
+      <div class="row p-0" id="brand">
          <div class="col-4 p-3">
            <img src="assets/images/images/logo.webp" class="img-fluid">
          </div>
@@ -16,8 +17,8 @@
   <div class="container-fluid p-0">
     <div class="container about m-auto p-0">
       <h1 class="text-center">About us</h1>
-      <p style="font-size:1rem; font-weight:300;" class="text-center  m-auto">Our Mission at TradZoo is to help people learn financial stability and financial freedom.</p>
-      <p style="font-size:1rem; font-weight:300;" class="text-center  m-auto"> Designed to provide you with daily free Swing & Intraday 
+      <p class="text-center  m-auto">Our Mission at TradZoo is to help people learn financial stability and financial freedom.</p>
+      <p class="text-center  m-auto"> Designed to provide you with daily free Swing & Intraday 
         trading analysis which would greately help you with the timely buy, sell and learn, while growing both knowledge and capital.</p>
     </div>
   </div>
@@ -98,33 +99,33 @@
           </div>
       </div>
    </div>
-   <div class="container-fluid ">
-      <div class="container review m-auto">
+   <div class="container-fluid py-0">
+      <div class="container review m-auto py-0">
           <h1 class="text-center">Download Now For Free !!!</h1>
-          <h4 class="text-center text-success font-weight-bold" style="font-size:1.1rem;">Use Code TRADZOO to get 20% cashback on your first purchase.</h4>
+          <h4 class="text-center font-weight-bold" style="font-size:1.1rem;  color:rgb(62,199,75);">Use Code TRADZOO to get 20% cashback on your first purchase.</h4>
           
-              <div class="container apk1 mx-auto">
+              <div class="container apk1 mx-auto my-0 py-0" >
                   <div class="row ">
-                    <div class="col-6">
-                        <div class="container p-1 ">
-                           <div class="row bg-white p-1 rounded">
-                              <div class="col-3 p-0 m-auto"  >
+                    <div class="col-6 p-0">
+                    <div class="container p-1">
+                           <div class="row m-0 bg-white  p-1">
+                              <div class="col-4 p-0 m-auto">
                                    <img class="w-100" src="assets/images/images/icons/playstore.png">
                               </div>
-                              <div class="col-9 m-auto ">
-                                   <p class="text-center font-weight-bold" >Android <br>   Play Store</p>
+                              <div class="col-8  m-auto p-0">
+                                   <p class="text-center font-weight-bold m-0 p-0">Android <br>   Play Store</p>
                               </div>
                            </div>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div class="container p-1 ">
-                           <div class="row bg-white p-1 rounded">
-                              <div class="col-3 p-0 m-auto ">
+                    <div class="col-6 p-0">
+                        <div class="container p-1">
+                           <div class="row m-0 bg-white  p-1">
+                              <div class="col-4 p-0 m-auto">
                                    <img class="w-100" src="assets/images/images/icons/appstore.webp">
                               </div>
-                              <div class="col-9  m-auto">
-                                   <p class="text-center font-weight-bold" >Apple <br>   APP Store</p>
+                              <div class="col-8  m-auto p-0">
+                                   <p class="text-center font-weight-bold m-0 p-0">Apple <br>   APP Store</p>
                               </div>
                            </div>
                         </div>
@@ -134,8 +135,6 @@
       </div>
    </div>
    <div class="container-fluid text-center sml">
-
-     
       <div class="container social">
       <h1 class="text-center">Other Social Media Channels </h1>
               <ul id="sml">
@@ -143,7 +142,7 @@
                       <a href="" class="" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
                     </li>
                     <li class="">
-                      <a href="/tz"><p class="m-0 p-0"><img src="assets/images/images/icons/tradingview.webp" style="height:25px; font-size:0.5rem !important;"><br>TradingView</p></a>
+                      <a href="/"><p class="m-0 p-0"><img src="assets/images/images/icons/tradingview.webp" style="height:25px; font-size:0.5rem !important;"><br>TradingView</p></a>
                     </li>
                     <li  class="text-center">
                       <a href="" class="" style="color:black;"><span  class="fa fa-telegram"></span><br>Telegram</a>
@@ -160,12 +159,15 @@
                     <li  class="text-center">
                       <a href="" class="" style="color:black;"><span  class="fa fa-whatsapp"></span><br>Whatsapp</a>
                     </li>
-                    <li  class="text-center">
-                      <a href="" class="" style="color:black;"><span  class=""><img style="height:23px; font-size:0.5rem !important;" src="https://img.icons8.com/fluency-systems-regular/48/000000/browser-windows.png"/></span><br>Website</a>
+                    <li class="">
+                      <a href="/"><p class="m-0 p-0"><img src="https://img.icons8.com/fluency-systems-regular/48/000000/browser-windows.png" style="height:25px; font-size:0.5rem !important;"><br>Website</p></a>
                     </li>
+                   
               </ul>
         </div>
-          <h4 class="text-center my-2 font-weight-bold text-success" style="font-size:1.1rem;">Join Now & start your financial journey with  Tradzoo </br> Trusted by 40k+ users</h4>
+          <h4 class="text-center my-2 font-weight-bold" style="font-size:1.1rem; color:#4eb053;">
+                Join Now & start your financial journey with  Tradzoo </br> Trusted by 40k+ users
+          </h4>
           
       </div>
   
@@ -199,4 +201,7 @@
                 </div>
           </div>
       </div>
+     <<div class="" id="chat">
+   <a href="https://wa.me/7776077410" style="z-index:1;"> <img src="assets/images/images/wp.png" class="rounded-circle w-100"></a>
+</div>
   </div>

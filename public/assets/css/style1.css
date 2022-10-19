@@ -1,21 +1,21 @@
-@font-face {
-    font-family: -Esfera-NF;
-    src: url(-Esfera-NF.ttf);
-    
-}
-@font-face {font-family: "Esfera NF W01 Bold";
-    src: url("2243c51d9b5b829f42fb44ef4d45ecd0.eot"); /* IE9*/
-    src: url("2243c51d9b5b829f42fb44ef4d45ecd0.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("2243c51d9b5b829f42fb44ef4d45ecd0.woff2") format("woff2"), /* chrome、firefox */
-    url("2243c51d9b5b829f42fb44ef4d45ecd0.woff") format("woff"), /* chrome、firefox */
-    url("2243c51d9b5b829f42fb44ef4d45ecd0.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url("2243c51d9b5b829f42fb44ef4d45ecd0.svg#Esfera NF W01 Bold") format("svg"); /* iOS 4.1- */
-  }
+
 *{
     font-family: -Esfera-NF;
     font-weight: 300 !important;
 
 }
+#chat{
+    position: fixed;
+    z-index: 1;
+    bottom:10px;
+    right:15px;
+    width:50px !important;
+  }
+  .about p{
+    font-family:"EseferaNFW01-Regular" !important ;
+    font-size: 0.8rem;
+    font-weight:400;
+  }
 ::-webkit-scrollbar {
     width: 10px;
     margin-right: 10px;
@@ -49,7 +49,7 @@
 #sml li{
     display: inline-block;
     background: white;
-    margin:1rem 0.5rem;
+    margin:1rem 0.4rem;
     padding: 0.6rem;
     border-radius:10px ;
 }
@@ -88,7 +88,7 @@
         color:black;
     }
     .about p{
-        font-family: -Esfera-NF;
+        font-family: "Esfera NF W01 Regular";
         color:black !important;
         font-weight:300;
         font-size: 1.3rem;
@@ -109,23 +109,15 @@
         padding:0;
     }
     .apk1{
-        width: 40%;
-        font-size: 100%;
+        width: 36%;
+        font-size: 90%;
+        margin: auto;
+        
     }
     
+    
 }
-/* @media  (max-width:800px) {
-    .brand{
-        width:60%;
-    }
-    .apk1{
-        width: 80%;
-    }
-    .tele{
-        width:90% !important;
-        border:1px solid black;
-    }
-} */
+
 @media  (max-width: 500px) {
     
     .container, .container-fluid{
@@ -143,7 +135,7 @@
         margin: auto auto !important;
     }
     .apk1{
-        width: 85% !important;
+        width: 70% !important;
         margin: auto !important;
         font-size: 80%;
     }
