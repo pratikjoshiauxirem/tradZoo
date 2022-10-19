@@ -160,7 +160,7 @@
                       <a href="" class="" style="color:black;"><span  class="fa fa-whatsapp"></span><br>Whatsapp</a>
                     </li>
                     <li class="">
-                      <a href="/"><p class="m-0 p-0"><img src="https://img.icons8.com/fluency-systems-regular/48/000000/browser-windows.png" style="height:25px; font-size:0.5rem !important;"><br>Website</p></a>
+                      <a href=""><p class="m-0 p-0"><img src="https://img.icons8.com/fluency-systems-regular/48/000000/browser-windows.png" style="height:25px; font-size:0.5rem !important;"><br>Website</p></a>
                     </li>
                    
               </ul>
@@ -174,13 +174,13 @@
       <div class="container-fluid w-75 tele">
           <div class="container">
                 <div class="row">
-                    <div class="col-6 p-0">
+                    <div class="col-6 p-2">
                         <img src="assets/images/images/telegram.webp" class="w-100">
                     </div>
-                    <div class="col-6 m-auto text-center p-1">
-                        <h3 class="font-weight-bold my-3" style="font-size:1.5rem; font-family:Esfera NF W01 Bold;">
+                    <div class="col-6 m-auto text-center p-5">
+                        <h1 class="font-weight-bold my-3" style="font-size:1.5rem; font-family:Esfera NF W01 Bold;">
                             Join Tradzoo Telegram Community!
-                        </h3 >
+                        </h1>
                         <p class="my-3" style="font-size:1rem; font-weight:300;">
                               Become a part of our Tradzoo's Telegram community and stay updated with all the 
                               market updates and offers Stay tuned for the most profitable trades.
