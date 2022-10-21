@@ -22,7 +22,7 @@
             items:4
         },
         100:{
-            items:6/4
+            items:2
         }
 
     }

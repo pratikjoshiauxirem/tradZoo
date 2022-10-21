@@ -1,38 +1,33 @@
 
 *{
-    font-family: -Esfera-NF;
-    /* font-weight: 10 !important; */
-
+    font-family: 'Roboto Slab', serif;
+    
 }
-#chat{
-    position: fixed;
-    z-index: 1;
-    bottom:10px;
-    right:15px;
-    width:50px !important;
-  }
-  /* .about p{
-    font-family:"EseferaNFW01-Regular" !important ;
-    font-size: 0.8rem;
-    font-weight:bold !important;
-  } */
-
-.rounded{
-    border-radius:15px !important;
-}
+ .apk1 a {
+    text-decoration: none;
+    color: black;
+ }
 #sml{
     display: inline;
 }
-#sml li{
+#sml .li{
     display: inline-block;
     background: white;
     margin:1rem 0.4rem;
     padding: 0.6rem;
     border-radius:10px ;
 }
-#sml li a {
+#sml .li {
  font-size: 1rem;
- font-weight: bold;
+ font-weight:400;
+ color: black  !important;
+}
+#sml .li:hover{
+ text-decoration: none;
+}
+
+#sml .li span{
+    font-size: 1.3rem;
 }
 ::-webkit-scrollbar {
     width: 10px;
@@ -42,8 +37,7 @@
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: transparent !important;
-    display: none;
+    width: 50px !important;
   }
   
   /* Handle */
@@ -58,24 +52,25 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
+  #chat{
+    position: fixed;
+    z-index: 1;
+    bottom:10px;
+    right:15px;
+    width:50px !important;
+  }
 @media (min-width: 100px) {
-    html h1 {
-       font-family:  "Esfera NF W01 Bold";
-    }
+    
     .brand .b2{
-        
-       font-family:  "Esfera NF W01 Bold";
-        font-weight:600 !important;
         font-size: 1.5rem;
         padding: 0;
         margin: 0;
-        /* color: rgba(158, 158, 158,1); */
-        color: #9e9e9e;
+        font-weight:600 !important;
+        color: rgb(148,148,148);
     }
     .brand1{
-       font-family:  "Esfera NF W01 Bold";
-        /* font-weight:bolder; */
-        font-size: 3rem;
+   
+        font-size: 4rem;
         color:black;
         margin:0;
         
@@ -83,17 +78,14 @@
     .brand .row img{
         border-radius: 10px;
     }
-    .about h1, .app_screenshot h1, .review h1, .download h1, .sml h1{
-        
-       font-family:  "Esfera NF W01 Bold";
-        font-weight:400 !important;
-        font-size: 1.7rem;
+    .about h1, .app_screenshot h1, .review h1, .download h1, .sml h1, .tele h1{
+        font-weight:600;
+        font-size: 1.6rem;
         color:black;
     }
-    .about p{
-        font-family: -Esfera-NF !important;
-        font-size:1rem; 
-        font-weight:300;
+    .about p, .tele p{
+        font-size:1.2rem !important; 
+        font-weight:500;
     }
     .review_container img{
         margin: 1rem;
@@ -116,12 +108,12 @@
         margin: auto;
         
     }
-    .tele p{
+    /* .tele p{
         font-weight: bold !important;
     }
     .tele h4{
         font-weight: bold !important;
-    }
+    } */
     
 }
 
@@ -142,18 +134,18 @@
         margin: auto auto !important;
     }
     .apk1{
-        width: 70% !important;
+        width: 80% !important;
         margin: auto !important;
         font-size: 80%;
     }
     .tele{
         width:100% !important;
-        font-weight: 300;
+        /* font-weight: 300; */
     }
-    .about p{
+    /* .about p{
         margin:0;
         padding:0;
-    }
+    } */
     .tele .col-6{
         padding: 0px !important;
     }
@@ -180,7 +172,7 @@
         }
         .tele{
             width:100% !important;
-            font-weight: 300;
+            /* font-weight: 300; */
         }
         
         }
