@@ -60,7 +60,25 @@
     width:50px !important;
   }
 @media (min-width: 100px) {
-    
+    .brand{
+        width:40%;
+        padding: 0;
+        margin: 1px auto;
+       
+    }
+    .brand .row{
+        padding:0;
+    }
+    .brand .row img{
+        border-radius: 10px;
+    }
+    .brand1{
+   
+        font-size: 4rem;
+        color:black;
+        margin:0;
+        
+    }
     .brand .b2{
         font-size: 1.5rem;
         padding: 0;
@@ -75,9 +93,7 @@
         margin:0;
         
     }
-    .brand .row img{
-        border-radius: 10px;
-    }
+   
     .about h1, .app_screenshot h1, .review h1, .download h1, .sml h1, .tele h1{
         font-weight:600;
         font-size: 1.6rem;
@@ -85,7 +101,7 @@
     }
     .about p, .tele p{
         font-size:1.2rem !important; 
-        font-weight:500;
+        font-weight:450;
     }
     .review_container img{
         margin: 1rem;
@@ -128,7 +144,7 @@
         font-size: 75%;
     }
     .brand{
-        width: 90% !important;
+        width: 100% !important;
        
         justify-content: center;
         margin: auto auto !important;

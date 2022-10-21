@@ -143,7 +143,7 @@
                       <a target="_blank" href="https://www.youtube.com/channel/UC6cO64zBUFLakJW-QZWYONg" class="li text-center" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
                   
                     
-                      <a target="_blank" href="https://in.tradingview.com/u/TradZoo/"><p class="li text-center"><img src="assets/images/images/icons/tradingview.webp" style="height:25px; font-size:0.5rem !important;"><br>TradingView</p></a>
+                      <a target="_blank" href="https://in.tradingview.com/u/TradZoo/"><p class="li text-center"><img src="assets/images/images/icons/tradingview.webp" style="height:1.3rem; font-size:0.5rem !important;"><br>TradingView</p></a>
                   
                    
                       <a target="_blank" href="https://t.me/tradzooIndex" class="li text-center" style="color:black;"><span  class="fa fa-telegram"></span><br>Telegram</a>
@@ -161,10 +161,9 @@
                       <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919103058707&text&type=phone_number&app_absent=0" class="li text-center" style="color:black;"><span  class="fa fa-whatsapp"></span><br>Whatsapp</a>
                   
                    
-                      <a target="_blank" href="https://tradzoo.com/"><p class="li text-center"><img src="assets/images/images/icons/browser-windows.png" style="height:25px; font-size:0.5rem !important;"><br>Website</p></a>
+                      <a target="_blank" href="https://tradzoo.com/"><p class="li text-center"><img src="assets/images/images/icons/browser-windows.png" style="height:1.3rem; font-size:0.5rem !important;"><br>Website</p></a>
 
-                  
-                   
+                    
                     
               </ul>
         </div>
