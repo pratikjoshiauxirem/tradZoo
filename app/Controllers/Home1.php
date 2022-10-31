@@ -16,4 +16,8 @@ class Home1 extends BaseController
         echo view('index/intro1.php');
         echo view('bs/js.php');
     }
+    public function data()
+    {
+        echo view('api_demo.php');
+    }
 }

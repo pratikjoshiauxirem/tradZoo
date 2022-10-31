@@ -1,3 +1,47 @@
+
+ <?php
+
+$geo_API= curl_init();
+$url="http://www.geoplugin.net/json.gp?base_currency=USD";
+curl_setopt($geo_API,CURLOPT_URL,$url);
+curl_setopt($geo_API,CURLOPT_RETURNTRANSFER,true);
+$resp= curl_exec($geo_API);
+if($e = curl_error($geo_API)){
+   echo $e;
+}
+else{
+   $decoded=json_decode($resp,true);
+   $city= $decoded["geoplugin_city"];
+   $region= $decoded["geoplugin_regionName"];
+   $country= $decoded["geoplugin_countryName"];
+}
+curl_close($geo_API);
+
+
+//Session API
+$post = array(
+   'city'=>$city,
+   'region'=>$region,
+   'country'=>$country
+);
+
+$postText = http_build_query($post);
+
+$url = "https://api.tradzoo.com/webIntroTrack/createWebIntroPageSession";
+
+$session_api = curl_init();
+curl_setopt($session_api, CURLOPT_URL, $url);
+curl_setopt($session_api, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($session_api, CURLOPT_POST, true);
+curl_setopt($session_api, CURLOPT_POSTFIELDS, $postText); 
+
+$result = curl_exec($session_api);
+// echo $result;
+
+curl_close($session_api);
+
+?>
+
 <link rel="stylesheet"  href="assets/css/style1.css">
    <div class="container-fluid p-0" style="width:100%; height:100%; background-color:rgb(227,242,253);">
 
@@ -140,28 +184,28 @@
       <h1 class="text-center">Other Social Media Channels </h1>
               <ul id="sml">
                    
-                      <a target="_blank" href="https://www.youtube.com/channel/UC6cO64zBUFLakJW-QZWYONg" class="li text-center" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
+                      <a target="_blank" name="youtube" onclick="track(this.name)" href="https://www.youtube.com/channel/UC6cO64zBUFLakJW-QZWYONg" class="li text-center" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
                   
                     
-                      <a target="_blank" href="https://in.tradingview.com/u/TradZoo/"><p class="li text-center"><img src="assets/images/images/icons/tradingview.webp" style="height:1.3rem; font-size:0.5rem !important;"><br>TradingView</p></a>
+                      <a target="_blank" name="trading view" onclick="track(this.name)" href="https://in.tradingview.com/u/TradZoo/"><p class="li text-center"><img src="assets/images/images/icons/tradingview.webp" style="height:1.3rem; font-size:0.5rem !important;"><br>TradingView</p></a>
                   
                    
-                      <a target="_blank" href="https://t.me/tradzooIndex" class="li text-center" style="color:black;"><span  class="fa fa-telegram"></span><br>Telegram</a>
+                      <a target="_blank" name="telegram" onclick="track(this.name)" href="https://t.me/tradzooIndex" class="li text-center" style="color:black;"><span  class="fa fa-telegram"></span><br>Telegram</a>
                   
                    
-                      <a target="_blank" href="https://twitter.com/tradzoo" class="li text-center" style="color:black;"><span  class="fa fa-twitter"></span><br>Twitter</a>
+                      <a target="_blank" name="twitter" onclick="track(this.name)" href="https://twitter.com/tradzoo" class="li text-center" style="color:black;"><span  class="fa fa-twitter"></span><br>Twitter</a>
                   
                    
-                      <a target="_blank" href="https://www.instagram.com/tradzoo/" class="li text-center" style="color:black;"><span  class="fa fa-instagram"></span><br>Instagram</a>
+                      <a target="_blank" name="instagram" onclick="track(this.name)" href="https://www.instagram.com/tradzoo/" class="li text-center" style="color:black;"><span  class="fa fa-instagram"></span><br>Instagram</a>
                   
                    
-                      <a target="_blank" href="https://www.facebook.com/TradZoo" class="li text-center" style="color:black;"><span  class="fa fa-facebook"></span><br>Facebook</a>
+                      <a target="_blank" name="facebook" onclick="track(this.name)" href="https://www.facebook.com/TradZoo" class="li text-center" style="color:black;"><span  class="fa fa-facebook"></span><br>Facebook</a>
                   
                    
-                      <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919103058707&text&type=phone_number&app_absent=0" class="li text-center" style="color:black;"><span  class="fa fa-whatsapp"></span><br>Whatsapp</a>
+                      <a target="_blank" name="whatsapp" onclick="track(this.name)" href="https://api.whatsapp.com/send/?phone=%2B919103058707&text&type=phone_number&app_absent=0" class="li text-center" style="color:black;"><span  class="fa fa-whatsapp"></span><br>Whatsapp</a>
                   
                    
-                      <a target="_blank" href="https://tradzoo.com/"><p class="li text-center"><img src="assets/images/images/icons/browser-windows.png" style="height:1.3rem; font-size:0.5rem !important;"><br>Website</p></a>
+                      <a target="_blank" name="website" onclick="track(this.name)" href="https://tradzoo.com/"><p class="li text-center"><img src="assets/images/images/icons/browser-windows.png" style="height:1.3rem; font-size:0.5rem !important;"><br>Website</p></a>
 
                     
                     
@@ -203,7 +247,14 @@
                 </div>
           </div>
       </div>
-     <<div class="" id="chat">
+     <div class="" id="chat">
    <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919103058707&text&type=phone_number&app_absent=0" style="z-index:1;"> <img src="assets/images/images/wp.png" class="rounded-circle w-100"></a>
 </div>
   </div>
+  <div id="inner"></div>
+
+  <script>
+      function track(name){
+        window.location.href = "http://www.w3schools.com";
+      }
+  </script>
