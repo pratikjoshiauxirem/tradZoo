@@ -37,9 +37,10 @@ curl_setopt($session_api, CURLOPT_POSTFIELDS, $postText);
 
 $result = curl_exec($session_api);
 // echo $result;
-
+// $decoded_session_api=json_decode($result,true);
+// $data1=$decoded_session_api["data"];
 curl_close($session_api);
-
+$data1=171;
 ?>
 
 <link rel="stylesheet"  href="assets/css/style1.css">
@@ -184,28 +185,28 @@ curl_close($session_api);
       <h1 class="text-center">Other Social Media Channels </h1>
               <ul id="sml">
                    
-                      <a target="_blank" name="youtube" onclick="track(this.name)" href="https://www.youtube.com/channel/UC6cO64zBUFLakJW-QZWYONg" class="li text-center" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
+                      <a target="_blank" name="youtube"  onclick="<?php $name='this.name'; $data=$data1;  track1($name,$data)?>" href="https://www.youtube.com/channel/UC6cO64zBUFLakJW-QZWYONg" class="li text-center" style="color:black;"><span  class="fa fa-youtube"></span><br>Youtube</a>
                   
                     
-                      <a target="_blank" name="trading view" onclick="track(this.name)" href="https://in.tradingview.com/u/TradZoo/"><p class="li text-center"><img src="assets/images/images/icons/tradingview.webp" style="height:1.3rem; font-size:0.5rem !important;"><br>TradingView</p></a>
+                      <a target="_blank" name="trading view"  onclick="<?php $name='this.name'; $data=$data1;  track1($name,$data)?>" href="https://in.tradingview.com/u/TradZoo/"><p class="li text-center"><img src="assets/images/images/icons/tradingview.webp" style="height:1.3rem; font-size:0.5rem !important;"><br>TradingView</p></a>
                   
                    
-                      <a target="_blank" name="telegram" onclick="track(this.name)" href="https://t.me/tradzooIndex" class="li text-center" style="color:black;"><span  class="fa fa-telegram"></span><br>Telegram</a>
+                      <a target="_blank" name="telegram"  onclick="<?php $name='this.name'; $data=$data1;  track1($name,$data)?>" href="https://t.me/tradzooIndex" class="li text-center" style="color:black;"><span  class="fa fa-telegram"></span><br>Telegram</a>
                   
                    
-                      <a target="_blank" name="twitter" onclick="track(this.name)" href="https://twitter.com/tradzoo" class="li text-center" style="color:black;"><span  class="fa fa-twitter"></span><br>Twitter</a>
+                      <a target="_blank" name="twitter"  onclick="<?php $name='this.name'; $data=$data1;  track1($name,$data)?>" href="https://twitter.com/tradzoo" class="li text-center" style="color:black;"><span  class="fa fa-twitter"></span><br>Twitter</a>
                   
                    
-                      <a target="_blank" name="instagram" onclick="track(this.name)" href="https://www.instagram.com/tradzoo/" class="li text-center" style="color:black;"><span  class="fa fa-instagram"></span><br>Instagram</a>
+                      <a target="_blank" name="instagram"  onclick="<?php $name='this.name'; $data=$data1;  track1($name,$data)?>" href="https://www.instagram.com/tradzoo/" class="li text-center" style="color:black;"><span  class="fa fa-instagram"></span><br>Instagram</a>
                   
                    
-                      <a target="_blank" name="facebook" onclick="track(this.name)" href="https://www.facebook.com/TradZoo" class="li text-center" style="color:black;"><span  class="fa fa-facebook"></span><br>Facebook</a>
+                      <a target="_blank" name="facebook"  onclick="<?php $name='this.name'; $data=$data1;  track1($name,$data)?>" href="https://www.facebook.com/TradZoo" class="li text-center" style="color:black;"><span  class="fa fa-facebook"></span><br>Facebook</a>
                   
                    
-                      <a target="_blank" name="whatsapp" onclick="track(this.name)" href="https://api.whatsapp.com/send/?phone=%2B919103058707&text&type=phone_number&app_absent=0" class="li text-center" style="color:black;"><span  class="fa fa-whatsapp"></span><br>Whatsapp</a>
+                      <a target="_blank" name="whatsapp"  onclick="<?php $name='this.name'; $data=$data1;  track1($name,$data)?>" href="https://api.whatsapp.com/send/?phone=%2B919103058707&text&type=phone_number&app_absent=0" class="li text-center" style="color:black;"><span  class="fa fa-whatsapp"></span><br>Whatsapp</a>
                   
                    
-                      <a target="_blank" name="website" onclick="track(this.name)" href="https://tradzoo.com/"><p class="li text-center"><img src="assets/images/images/icons/browser-windows.png" style="height:1.3rem; font-size:0.5rem !important;"><br>Website</p></a>
+                      <a target="_blank" name="website"  onclick="<?php $name='this.name'; $data=$data1;  track1($name,$data)?>" href="https://tradzoo.com/"><p class="li text-center"><img src="assets/images/images/icons/browser-windows.png" style="height:1.3rem; font-size:0.5rem !important;"><br>Website</p></a>
 
                     
                     
@@ -231,7 +232,7 @@ curl_close($session_api);
                               Become a part of our Tradzoo's Telegram community and stay updated with all the 
                               market updates and offers Stay tuned for the most profitable trades.
                         </p>
-                        <a target="_blank" href="https://t.me/tradzooIndex" class="btn text-center m-auto my-3  p-0" style="width:10rem;">
+                        <a target="_blank" name="telegram"  onclick="<?php $name='this.name'; $data='this.id';  track1($name,$data)?>" href="https://t.me/tradzooIndex" class="btn text-center m-auto my-3  p-0" style="width:10rem;">
                           <div class="container m-0 p-0">
                                 <div class="row p-0 m-0  bg-white pt-0 pb-0 ">
                                     <div class="col-4  p-1 m-auto">
@@ -248,13 +249,42 @@ curl_close($session_api);
           </div>
       </div>
      <div class="" id="chat">
-   <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919103058707&text&type=phone_number&app_absent=0" style="z-index:1;"> <img src="assets/images/images/wp.png" class="rounded-circle w-100"></a>
+   <a target="_blank" name="whatsapp"  onclick="<?php $name='this.name';  $data=$data1;  track1($name,$data)?>" href="https://api.whatsapp.com/send/?phone=%2B919103058707&text&type=phone_number&app_absent=0" style="z-index:1;"> <img src="assets/images/images/wp.png" class="rounded-circle w-100"></a>
 </div>
   </div>
-  <div id="inner"></div>
+  <div id="inner">
+    <?php 
+  
+      function track1($name,$data){
+        
+        $post = array(
+    'type'=>$name,
+    'sessionID'=>$data
+    
+);
 
-  <script>
-      function track(name){
-        window.location.href = "http://www.w3schools.com";
+
+$postText = http_build_query($post);
+
+$url = "https://api.tradzoo.com/webIntroTrack/buttonClickWebIntroPage";
+
+$tracking_api = curl_init();
+curl_setopt($tracking_api, CURLOPT_URL, $url);
+curl_setopt($tracking_api, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($tracking_api, CURLOPT_POST, true);
+curl_setopt($tracking_api, CURLOPT_POSTFIELDS, $postText); 
+
+$result = curl_exec($tracking_api);
+// echo $result;
+if($e = curl_error($tracking_api)){
+    echo $e;
+ }
+ else{
+    // echo $result;
+    $decoded_session_api=json_decode($result,true);
+ }
+ curl_close($tracking_api);
+
       }
-  </script>
+    ?>
+  </div>
